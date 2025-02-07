@@ -1,0 +1,39 @@
+p{color: black; 
+font-size: xx-large;}
+/* all p is going to be this distinction  */
+p1{color: blue; 
+    font-size: xx-large;}
+    /* all p is going to be this distinction  */
+
+
+
+/* FIRST MAP DETAILS */  
+/* Ensure the first map container has a height and width */
+#coolmap {
+    height: 640px;  /* Set the height as per your previous example */
+    width: 100%;
+    /*margin-top: 100px;    /* Optional: makes the map take full width of the container */
+}
+/* Ensure the map container has a height and width */
+#warrmtmap {
+    height: 640px;  /* Set the height as per your previous example */
+    width: 100%;    /* Optional: makes the map take full width of the container */
+}
+
+#maptitle{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* SECOND MAP DETAILS*/
+/* Ensure the second map container has a height and width */
+#warmmap {
+    height: 640px;  /* Set the height as per your previous example */
+    width: 100%;
+    /*margin-top: 100px;    /* Optional: makes the map take full width of the container */
+}
+
+#maptitle2{
+    text-align: center;
+    text-decoration: underline;
+}

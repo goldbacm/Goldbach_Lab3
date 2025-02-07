@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>2022</pubdate>
+                <title>Culverts 2022</title>
+                <edition>2022</edition>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This data identifies point locations of known culverts. The data was taken from the Drainage Facilities Management System (DFMS) and TransInfo (TI).</abstract>
+            <purpose>The purpose of this data set is to identify Oregon's culvert locations for planning, maintenance, and management activities with Oregon Department of Transportation.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>2022</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Annually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-124.560534</westbc>
+                <eastbc>-116.838177</eastbc>
+                <northbc>46.194489</northbc>
+                <southbc>41.997343</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>culverts</themekt>
+                <themekey>drain</themekey>
+                <themekey>fish</themekey>
+                <themekey>drainage</themekey>
+                <themekey>fish passage</themekey>
+                <themekey>culvert</themekey>
+                <themekey>NBI</themekey>
+                <themekey>bridge</themekey>
+                <themekey>transportation</themekey>
+                <themekey>culverts</themekey>
+                <themekey>FACS_STIP</themekey>
+                <themekey>Trans_GIS</themekey>
+                <themekey>drainage</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>transportation</themekey>
+            </theme>
+            <temporal>
+                <tempkt>2022</tempkt>
+                <tempkey>2022</tempkey>
+            </temporal>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>This product is for informational purposes and may not have been prepared for legal, engineering or surveying purposes. Users of this information should review or consult the primary data and information sources to ascertain the usability of the information.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Culvert Engineering Program, Oregon Department of Transportation (ODOT).</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>4040 Fairview Industrial Dr SE</address>
+                    <city>Salem</city>
+                    <state>Or</state>
+                    <postal>97302-1142</postal>
+                </cntaddr>
+                <cntvoice>503 986-3860</cntvoice>
+                <cntemail>Robert.E.Trevis@odot.state.or.us</cntemail>
+                <hours>7:00 am to 4:00 pm M thru F (PST)</hours>
+                <cntinst>Call, email, or write</cntinst>
+            </cntinfo>
+        </ptcontac>
+    </idinfo>
+    <eainfo>
+        <detailed>
+            <attr>
+                <attrlabl>Beavr_Actv</attrlabl>
+                <attrdef>Beaver Activity</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Bkwtr_nflc</attrlabl>
+                <attrdef>Backwater Influence</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Cnfnd_Spc</attrlabl>
+                <attrdef>Confined Space</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Coll_dt</attrlabl>
+                <attrdef>Coordinate collection date</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Coord_srce</attrlabl>
+                <attrdef>Coordinate Source</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Coord_unit</attrlabl>
+                <attrdef>Coordinate Units</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Countyname</attrlabl>
+                <attrdef>County Name where culvert is located</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Datum_nm</attrlabl>
+                <attrdef>Coordinate reference datum name</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>DFI</attrlabl>
+                <attrdef>Drainage Facility ID</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Effectv_dt</attrlabl>
+                <attrdef>The date or time period in which the data extract is relevant or current.</attrdef>
+                <attrdefs>Geographic Information Services Unit, Oregon Department of Transportation (ODOT)</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Facil_Usge</attrlabl>
+                <attrdef>Facility Usage</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Fsh_hist</attrlabl>
+                <attrdef>fish present historically</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Fsh_Prsnt</attrlabl>
+                <attrdef>Fish Present</attrdef>
+                <attrdefs>Current presence of native migratory fish (OAR 635-007-0501) that migrate for their life cycle needs, including all sub-species and life history patterns at the hydraulic facility.</attrdefs>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>Y</edomv>
+                                                
+                        <edomvd>Yes</edomvd>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>N</edomv>
+                                                
+                        <edomvd>No</edomvd>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>X</edomv>
+                                                
+                        <edomvd>No Data</edomvd>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Fsh_Rpr</attrlabl>
+                <attrdef>Fish Repair Status</attrdef>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>TE</edomv>
+                                                
+                        <edomvd>Temporary</edomvd>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>PE</edomv>
+                                                
+                        <edomvd>Permanent</edomvd>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FshAgr_Dt</attrlabl>
+                <attrdef>Fish Agreement Date</attrdef>
+                <attrdefs>The date of the Fish Passage agreement (waiver, exemption, compliance) between agencies</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>FshAgr_typ</attrlabl>
+                <attrdef>Fish agreement type</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GIS_prc_dt</attrlabl>
+                <attrdef>The date that the data was processed.</attrdef>
+                <attrdefs>Geographic Information Service Unit, Oregon Department of Transportation (ODOT)</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Hrz_accrcy</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Ht_Cov_In</attrlabl>
+                <attrdef>Inlet Embankment Height</attrdef>
+                <attrdefs>Vertical distance (measured in decimal feet) from the top of the barrel intlet to the edge of pavement.</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Ht_Cov_Out</attrlabl>
+                <attrdef>Outlet Embankment Height.</attrdef>
+                <attrdefs>Vertical distance (measured in decimal feet) from the top of the barrel outlet to the edge of pavement</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Hwynumb</attrlabl>
+                <attrdef>A unique identifier assigned to an Oregon State highway.</attrdef>
+                <attrdefs>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</attrdefs>
+                <attrdomv>
+                                        
+                    <rdom>
+                                                
+                        <rdommin>1</rdommin>
+                                                
+                        <rdommax>497</rdommax>
+                                            
+                    </rdom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>In_End_Typ</attrlabl>
+                <attrdef>inlet end type</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>In_Prot</attrlabl>
+                <attrdef>Inlet Protection</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Inlet_Side</attrlabl>
+                <attrdef>Inlet Side</attrdef>
+                <attrdefs>Left or right side of the highway that the culvert inlet is located. Left and right is determined by looking in the increasing milepoint direction.</attrdefs>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>L</edomv>
+                                                
+                        <edomvd>Left</edomvd>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>R</edomv>
+                                                
+                        <edomvd>Right</edomvd>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>X</edomv>
+                                                
+                        <edomvd>No Data</edomvd>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LAT</attrlabl>
+                <attrdef>Latitude</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>LONGTD</attrlabl>
+                <attrdef>Longitude</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Lrs_key</attrlabl>
+                <attrdef>The Linear Referencing System (LRS) is a twelve digit highway reference code (ODOT Phasing out). The first nine characters are the inventory route numbers and the last three characters are the sub-route numbers.</attrdef>
+                <attrdefs>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>The twelve digit alphanumeric string is broken down into its components as: 1 - Place holder 0 (zero); 2-4 - Hwy Number 001 - 499; 5-6 - Hwy Suffix 00 (zero zero), AA-ZZ (alphabetic characters); 7 - Roadway Identifier (1,2,5); 8 - Mileage Type (0,Z); 9 - Overlap Mileage Code (0-9); 10 - Jurisdiction Code (S); 11-12 - Two Place holders 00 (zero zero)</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LstInsp_Dt</attrlabl>
+                <attrdef>last inspection date</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Matl</attrlabl>
+                <attrdef>culvert material</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Mlge_typ</attrlabl>
+                <attrdef>Identifies the type of highway mileage.</attrdef>
+                <attrdefs>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</attrdefs>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>0</edomv>
+                                                
+                        <edomvd>Regular mileage.</edomvd>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>Z</edomv>
+                                                
+                        <edomvd>Overlapping Mileage: Overlapping mileage occurs when a section of highway is lengthened due to new construction. Example: A section of highway from milepoint 49.00 to milepoint 50.00 is washed out. The washed out section must be replaced, but, the old alignment cannot be used. A new alignment is built around the problem area, but the new alignment is 4.62 miles longer than the original alignment. The new distance between milepoint 49.00 and milepoint 50 is now 5.62 miles. In order to reflect the true distance along the highway without remileposting the entire road, overlapping mileage is created.</edomvd>
+                                                
+                        <edomvds>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MP</attrlabl>
+                <attrdef>A number that represents the distance in miles from the original beginning of the highway.</attrdef>
+                <attrdefs>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</attrdefs>
+                <attrdomv>
+                                        
+                    <rdom>
+                                                
+                        <rdommin>-999.99</rdommin>
+                                                
+                        <rdommax>999.99</rdommax>
+                                                
+                        <attrunit>mile</attrunit>
+                                                
+                        <attrmres>0.02</attrmres>
+                                            
+                    </rdom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Mp_Desc_Se</attrlabl>
+                <attrdef>Milepoint Description Sequence</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NBI_Struc</attrlabl>
+                <attrdef>NBI (National Bridge Inventory) structure, Yes (Y) or No (N)</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>No_brrl</attrlabl>
+                <attrdef>Number of Barrels</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ODFW_prty</attrlabl>
+                <attrdef>Oregon Department of Fish and Wildlife Priority site</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Odot_dist</attrlabl>
+                <attrdef>ODOT district</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Odot_reg</attrlabl>
+                <attrdef>ODOT Region</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Ornt</attrlabl>
+                <attrdef>Orientation</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Out_Prot</attrlabl>
+                <attrdef>outlet protection</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OutEnd_Typ</attrlabl>
+                <attrdef>outlet end type</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Outlt_drop</attrlabl>
+                <attrdef>drop to outlet</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Ovlp_cd</attrlabl>
+                <attrdef>Overlapping Mileage Code used to indicate unique and chronological occurrence of "Z" mileage.</attrdef>
+                <attrdefs>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</attrdefs>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>0</edomv>
+                                                
+                        <edomvd>No occurrence of duplicate mileage on a specific highway.</edomvd>
+                                                
+                        <edomvds>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>1</edomv>
+                                                
+                        <edomvd>First occurrence of duplicate mileage on a specific highway.</edomvd>
+                                                
+                        <edomvds>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>2</edomv>
+                                                
+                        <edomvd>Second occurrence of duplicate mileage on a specific highway.</edomvd>
+                                                
+                        <edomvds>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>3</edomv>
+                                                
+                        <edomvd>Third occurrence of duplicate mileage on a specific highway.</edomvd>
+                                                
+                        <edomvds>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>4</edomv>
+                                                
+                        <edomvd>Fourth occurrence of duplicate mileage on a specific highway.</edomvd>
+                                                
+                        <edomvds>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>5</edomv>
+                                                
+                        <edomvd>Fifth occurrence of duplicate mileage on a specific highway.</edomvd>
+                                                
+                        <edomvds>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>6</edomv>
+                                                
+                        <edomvd>Sixth occurrence of duplicate mileage on a specific highway.</edomvd>
+                                                
+                        <edomvds>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>7</edomv>
+                                                
+                        <edomvd>Seventh occurrence of duplicate mileage on a specific highway.</edomvd>
+                                                
+                        <edomvds>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>8</edomv>
+                                                
+                        <edomvd>Eighth occurrence of duplicate mileage on a specific highway.</edomvd>
+                                                
+                        <edomvds>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>9</edomv>
+                                                
+                        <edomvd>Ninth occurrence of duplicate mileage on a specific highway.</edomvd>
+                                                
+                        <edomvds>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Rdwy_id</attrlabl>
+                <attrdef>The number assigned to a roadway where more than one roadbed exists for the highway.</attrdef>
+                <attrdefs>TransInfo (TI) database, Oregon Department of Transportation (ODOT)</attrdefs>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>1</edomv>
+                                                
+                        <edomvd>The primary roadway. Direction of travel is in the direction of increasing milepoints.</edomvd>
+                                                
+                        <edomvds>Definition Source: TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>2</edomv>
+                                                
+                        <edomvd>The secondary roadway. Direction of travel is in the direction of decreasing milepoints.</edomvd>
+                                                
+                        <edomvds>Definition Source: TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>5</edomv>
+                                                
+                        <edomvd>Located line.</edomvd>
+                                                
+                        <edomvds>Definition Source: TransInfo (TI) database, Oregon Department of Transportation (ODOT)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Rehab_Dt</attrlabl>
+                <attrdef>Rehabilitation date</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Rehab_Typ</attrlabl>
+                <attrdef>Rehabilitation type</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Rise</attrlabl>
+                <attrdef>vertical height dimension of barrel in inches</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature Geometry</attrdef>
+                <attrdefs>Environmental Systems Research Institute (ESRI)</attrdefs>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>Polyline</edomv>
+                                                
+                        <edomvd>Polylines are sets of coordinate pairs that define a shape.These types of features represent an ordered collection of paths that can be disjoint or connected. These features may also contain an optional altitude (z) or measure (m) values.</edomvd>
+                                                
+                        <edomvds>Environmental Systems Research Institute (ESRI)</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Skew</attrlabl>
+                <attrdef>measure of angle of intersection between a line normal to roadway, measured in degrees.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Span</attrlabl>
+                <attrdef>horizontal width dimension of the barrel in inches</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Stream_Nm</attrlabl>
+                <attrdef>Stream Name</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Struc_wd</attrlabl>
+                <attrdef>Structure Width</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Tidal_nflc</attrlabl>
+                <attrdef>tidal influence present</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Tot_Emb_Ht</attrlabl>
+                <attrdef>Total Embankment Height</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Yr_built</attrlabl>
+                <attrdef>year built</attrdef>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>culverts contains condition, location and description information.</eaover>
+        </overview>
+    </eainfo>
+    <metainfo>
+        <metd>20221230</metd>
+        <metrd>2022-12-30</metrd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Geographic Information Services (GIS) Unit, Oregon Department of Transportation (ODOT)</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>555 13th St. NE, Suite #2</address>
+                    <city>Salem</city>
+                    <state>OR</state>
+                    <postal>97301-4178</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>503.986.3154</cntvoice>
+                <cntfax>503.986.4249</cntfax>
+                <cntemail>ODOTGISFramework@odot.state.or.us</cntemail>
+                <hours>Monday through Friday, 8:00 AM to 5:00 PM.</hours>
+                <cntinst>Call, email, or write.</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
