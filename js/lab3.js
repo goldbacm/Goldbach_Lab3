@@ -10,6 +10,7 @@ var minValue;
 var map = L.map('coolmap').setView([39.8283, -98.5795], 4.5);
 
 //adding openstreet map tiles
+
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -155,6 +156,16 @@ fetch('/data/USA_MajorCities_2.geojson')
 
 var map2 = L.map('warmmap').setView([37.8, -96], 4);
 
+// L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
+// 	attribution: 'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (<a href="https://earthdata.nasa.gov">ESDIS</a>) with funding provided by NASA/HQ.',
+// 	bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
+// 	minZoom: 1,
+// 	maxZoom: 8,
+// 	format: 'jpg',
+// 	time: '',
+// 	tilematrixset: 'GoogleMapsCompatible_Level' 
+// }).addTo(map2);
+
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -229,7 +240,7 @@ legend.onAdd = function () {
     div.style.padding = '10px';
     div.style.borderRadius = '5px';
     div.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.2)';
-    // Adding the title "Population Density" to the legend
+    // Adding the title "Population Density" to the legend, and we want it bold
     div.innerHTML += '<strong>Population Density</strong><br><br>';
 
     var grades = [10, 20, 50, 100, 200, 500, 1000];

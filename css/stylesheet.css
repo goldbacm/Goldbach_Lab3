@@ -1,12 +1,33 @@
 p{color: black; 
 font-size: xx-large;}
 /* all p is going to be this distinction  */
-p1{color: blue; 
-    font-size: xx-large;}
+#p1{color: rgb(6, 113, 30); 
+    font-size: xx-large;
+    margin: 0;
+}
     /* all p is going to be this distinction  */
 
 
+#h1 {
+    text-align: center;
+    background-color: rgb(194, 235, 194); /* Background color for the heading */
+    padding: 60px; 
+    margin-bottom: 0; /* Remove bottom margin */
+    font-family: "Lucida Console", Monaco, monospace; /* Proper font-family declaration */
+    font-weight: bold; /* Makes the font bold */
+    font-size: 40px;
+}
 
+/* I am having too much fun with fonts and things...*/
+#p1 {
+    text-align: center;
+    background-color: rgb(227, 236, 227); /* Background color for the heading */
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0; /* Remove bottom margin */
+    font-family: "Copperplate", "Copperplate Gothic Light", sans-serif; /* Proper font-family declaration */
+    font-weight: bold; /* Makes the font bold */
+}
 /* FIRST MAP DETAILS */  
 /* Ensure the first map container has a height and width */
 #coolmap {
@@ -36,4 +57,13 @@ p1{color: blue;
 #maptitle2{
     text-align: center;
     text-decoration: underline;
+}
+
+/* data sources */    
+#source1{
+    font-size: small;
+}
+
+#source2{
+    font-size:small;
 }
